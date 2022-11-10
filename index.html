@@ -643,6 +643,31 @@
               </svg>
             </div>
           </div>
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label">Коментар</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Введіть текст"
+              class="modal-comment"
+            ></textarea>
+          </div>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              name="privacy"
+              id="privacy"
+              class="input-check hidden-title"
+            />
+            <label for="privacy" class="check-label"
+              ><span
+                ><svg class="check-icon" width="16" height="15">
+                  <use href="./img/symbol-defs.svg#check"></use></svg
+              ></span>
+              Погоджуюся з розсилкою та приймаю
+              <a href="#" class="privacy-link link">Умови договору</a></label
+            >
+          </div>
 
           <button type="submit" class="btn btn-modal">Відправити</button>
         </form>
