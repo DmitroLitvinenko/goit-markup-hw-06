@@ -639,7 +639,7 @@ img {
 
 .modal {
   width: 528px;
-  min-height: 581px;
+  height: 581px;
   padding: 40px;
   position: absolute;
   top: 50%;
@@ -691,6 +691,14 @@ img {
   margin-bottom: 10px;
 }
 
+.modal-field-comment {
+  margin-bottom: 20px;
+}
+
+.modal-field-privacy {
+  margin-bottom: 30px;
+}
+
 .modal-label {
   display: block;
   margin-bottom: 4px;
@@ -709,6 +717,7 @@ img {
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill var(--animation);
 }
 
 .modal-input {
@@ -755,6 +764,8 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   display: flex;
+  gap: 8px;
+  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -764,7 +775,6 @@ img {
   height: 15px;
   border: 2px solid #000000;
   border-radius: 2px;
-  margin-right: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
